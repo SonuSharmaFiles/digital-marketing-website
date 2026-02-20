@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Book a free 30-minute strategy call with Apex Growth. We'll audit your current marketing, identify your biggest growth opportunity, and outline a revenue growth plan.">
+    <title>Book a Strategy Call — Apex Growth | Free 30-Minute Consultation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ── Navigation ── -->
+    <nav class="nav" id="navbar">
+        <div class="container">
+            <a href="index.html" class="nav__logo">
+                <div class="logo-icon">A</div>
+                Apex Growth
+            </a>
+            <div class="nav__links" id="navLinks">
+                <a href="index.html" class="nav__link">Home</a>
+                <div class="nav__dropdown">
+                    <a href="services.html" class="nav__link">Services <span class="nav__dropdown-arrow">▾</span></a>
+                    <div class="nav__dropdown-menu">
+                        <a href="services.html#performance-marketing" class="nav__dropdown-item">Performance
+                            Marketing</a>
+                        <a href="services.html#web-design" class="nav__dropdown-item">Web Design</a>
+                        <a href="services.html#seo-content" class="nav__dropdown-item">SEO & Content</a>
+                        <a href="services.html#automation" class="nav__dropdown-item">Marketing Automation</a>
+                    </div>
+                </div>
+                <a href="case-studies.html" class="nav__link">Case Studies</a>
+                <a href="book.html" class="btn btn--primary">Book Strategy Call</a>
+            </div>
+            <div class="nav__hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ── Hero ── -->
+    <section class="hero hero--inner">
+        <div class="container">
+            <div class="hero__content">
+                <span class="overline hero__overline">Let's Talk Growth</span>
+                <h1 class="hero__title">Book Your Free <span class="text-gradient">Strategy Call</span></h1>
+                <p class="hero__subtitle">In 30 minutes, we'll audit your current marketing, identify your biggest
+                    growth opportunity, and outline a clear next step — whether or not you work with us.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ── What to Expect ── -->
+    <section class="section">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="overline">What to Expect</span>
+                <h2>Your Strategy Call, Step by Step</h2>
+            </div>
+
+            <div class="expect-grid reveal">
+                <div class="expect-card">
+                    <div class="expect-card__number">01</div>
+                    <h4 class="expect-card__title">Before the Call</h4>
+                    <p class="expect-card__text">Complete the form below. We'll review your website, current marketing,
+                        and competitive landscape before we meet — so we don't waste your time asking questions we could
+                        answer ourselves.</p>
+                </div>
+
+                <div class="expect-card">
+                    <div class="expect-card__number">02</div>
+                    <h4 class="expect-card__title">During the Call</h4>
+                    <p class="expect-card__text">We'll discuss your revenue goals, current challenges, and what's worked
+                        (and hasn't). You'll leave with at least 2–3 actionable insights you can implement immediately —
+                        regardless of whether you work with us.</p>
+                </div>
+
+                <div class="expect-card">
+                    <div class="expect-card__number">03</div>
+                    <h4 class="expect-card__title">After the Call</h4>
+                    <p class="expect-card__text">If we're a mutual fit, we'll send a custom proposal within 48 hours
+                        with scope, timeline, and investment options. If not, no pressure — you'll still walk away with
+                        a clearer growth direction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ── Booking Form + Sidebar ── -->
+    <section class="section section--alt" id="booking">
+        <div class="container">
+            <div class="booking-layout">
+
+                <!-- Form -->
+                <div class="reveal">
+                    <h2 style="margin-bottom: var(--sp-xs);">Request Your Strategy Session</h2>
+                    <p class="text-muted" style="margin-bottom: var(--sp-2xl); font-size: var(--fs-body-sm);">All fields
+                        marked with <span style="color: var(--clr-accent);">*</span> are required. We typically respond
+                        within 24 hours.</p>
+
+                    <form id="bookingForm" novalidate>
+                        <div class="grid grid--2">
+                            <div class="form-group">
+                                <label class="form-label" for="firstName">First Name <span>*</span></label>
+                                <input type="text" class="form-input" id="firstName" name="firstName" placeholder="John"
+                                    required>
+                                <p class="form-error">Please enter your first name.</p>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="lastName">Last Name <span>*</span></label>
+                                <input type="text" class="form-input" id="lastName" name="lastName" placeholder="Smith"
+                                    required>
+                                <p class="form-error">Please enter your last name.</p>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="email">Business Email <span>*</span></label>
+                            <input type="email" class="form-input" id="email" name="email"
+                                placeholder="john@company.com" required>
+                            <p class="form-error">Please enter a valid business email.</p>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="website">Website URL <span>*</span></label>
+                            <input type="url" class="form-input" id="website" name="website"
+                                placeholder="https://yourcompany.com" required>
+                            <p class="form-error">Please enter a valid website URL.</p>
+                        </div>
+
+                        <div class="grid grid--2">
+                            <div class="form-group">
+                                <label class="form-label" for="revenue">Monthly Revenue Range <span>*</span></label>
+                                <select class="form-select" id="revenue" name="revenue" required>
+                                    <option value="" disabled selected>Select range</option>
+                                    <option value="10k-50k">$10,000 – $50,000</option>
+                                    <option value="50k-200k">$50,000 – $200,000</option>
+                                    <option value="200k-1m">$200,000 – $1,000,000</option>
+                                    <option value="1m+">$1,000,000+</option>
+                                </select>
+                                <p class="form-error">Please select your revenue range.</p>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="budget">Monthly Marketing Budget <span>*</span></label>
+                                <select class="form-select" id="budget" name="budget" required>
+                                    <option value="" disabled selected>Select range</option>
+                                    <option value="2k-5k">$2,000 – $5,000</option>
+                                    <option value="5k-10k">$5,000 – $10,000</option>
+                                    <option value="10k+">$10,000+</option>
+                                </select>
+                                <p class="form-error">Please select your budget range.</p>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="challenge">What's Your Biggest Marketing Challenge?
+                                <span>*</span></label>
+                            <textarea class="form-textarea" id="challenge" name="challenge"
+                                placeholder="Tell us what's not working, what you've tried, and what you're hoping to achieve..."
+                                required></textarea>
+                            <p class="form-error">Please describe your marketing challenge.</p>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="referral">How Did You Hear About Us?</label>
+                            <select class="form-select" id="referral" name="referral">
+                                <option value="" disabled selected>Select one</option>
+                                <option value="google">Google Search</option>
+                                <option value="linkedin">LinkedIn</option>
+                                <option value="referral">Referral / Word of Mouth</option>
+                                <option value="social">Social Media</option>
+                                <option value="podcast">Podcast / Event</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn--primary btn--large"
+                            style="width: 100%; margin-top: var(--sp-md);">
+                            Request Your Strategy Session
+                            <span class="btn__arrow">→</span>
+                        </button>
+
+                        <p
+                            style="text-align: center; font-size: var(--fs-caption); color: var(--clr-text-muted); margin-top: var(--sp-md);">
+                            🔒 Your information is kept strictly confidential. We never share or sell data.
+                        </p>
+                    </form>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="booking-sidebar reveal reveal--delay-2">
+                    <div class="testimonial" style="margin-bottom: var(--sp-xl);">
+                        <p class="testimonial__quote">The strategy call alone was worth more than what we paid our last
+                            agency in 3 months. Apex identified two growth opportunities we'd completely overlooked.</p>
+                        <div class="testimonial__author">
+                            <div class="testimonial__avatar">SR</div>
+                            <div>
+                                <div class="testimonial__name">Sarah Rodriguez</div>
+                                <div class="testimonial__role">Founder, Bloom Skincare Co.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-trust">
+                        <h4
+                            style="font-size: var(--fs-body-sm); font-weight: var(--fw-semibold); margin-bottom: var(--sp-lg);">
+                            Why Book a Call?</h4>
+
+                        <div class="sidebar-trust__item">
+                            <span class="sidebar-trust__icon">✓</span>
+                            <span>Free 30-minute strategy session</span>
+                        </div>
+                        <div class="sidebar-trust__item">
+                            <span class="sidebar-trust__icon">✓</span>
+                            <span>Personalized marketing audit</span>
+                        </div>
+                        <div class="sidebar-trust__item">
+                            <span class="sidebar-trust__icon">✓</span>
+                            <span>Actionable insights — even if you don't hire us</span>
+                        </div>
+                        <div class="sidebar-trust__item">
+                            <span class="sidebar-trust__icon">✓</span>
+                            <span>No obligation, no hard sell</span>
+                        </div>
+                        <div class="sidebar-trust__item">
+                            <span class="sidebar-trust__icon">✓</span>
+                            <span>Speak directly with a senior strategist</span>
+                        </div>
+
+                        <hr style="border: none; border-top: 1px solid var(--clr-border); margin: var(--sp-lg) 0;">
+
+                        <div style="text-align: center;">
+                            <div
+                                style="font-size: var(--fs-h3); font-weight: var(--fw-bold); font-family: var(--ff-heading); color: var(--clr-accent);">
+                                47+</div>
+                            <div style="font-size: var(--fs-caption); color: var(--clr-text-muted);">Businesses Scaled
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ── Footer ── -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <a href="index.html" class="nav__logo" style="margin-bottom: var(--sp-sm);">
+                        <div class="logo-icon">A</div>
+                        Apex Growth
+                    </a>
+                    <p>Revenue-driven digital marketing for ambitious brands. We turn marketing budgets into measurable
+                        business growth.</p>
+                </div>
+                <div>
+                    <h4 class="footer__heading">Services</h4>
+                    <a href="services.html" class="footer__link">Performance Marketing</a>
+                    <a href="services.html" class="footer__link">Web Design</a>
+                    <a href="services.html" class="footer__link">SEO & Content</a>
+                    <a href="services.html" class="footer__link">Marketing Automation</a>
+                </div>
+                <div>
+                    <h4 class="footer__heading">Company</h4>
+                    <a href="about.html" class="footer__link">About Us</a>
+                    <a href="case-studies.html" class="footer__link">Case Studies</a>
+                    <a href="book.html" class="footer__link">Book a Call</a>
+                </div>
+                <div>
+                    <h4 class="footer__heading">Connect</h4>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener" class="footer__link">LinkedIn</a>
+                    <a href="https://x.com" target="_blank" rel="noopener" class="footer__link">Twitter / X</a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener" class="footer__link">Instagram</a>
+                    <a href="mailto:hello@apexgrowth.co" class="footer__link">hello@apexgrowth.co</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <span>© 2026 Apex Growth. All rights reserved.</span>
+                <span><a href="privacy.html" class="footer__link" style="display:inline">Privacy Policy</a> · <a
+                        href="terms.html" class="footer__link" style="display:inline">Terms of Service</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
