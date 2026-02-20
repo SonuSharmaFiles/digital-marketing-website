@@ -858,6 +858,14 @@ h4,
   font-weight: var(--fw-bold);
   color: var(--clr-accent);
   font-size: 1.1rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.testimonial__avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .testimonial__name {
