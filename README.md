@@ -57,7 +57,7 @@ A premium, dark-mode digital marketing agency website built with **HTML**, **CSS
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/digital-marketing-website.git
+   git clone https://github.com/SonuSharmaFiles/digital-marketing-website.git
    ```
 2. Open `index.html` in your browser — no build step needed!
 
