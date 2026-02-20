@@ -25,8 +25,17 @@ A premium, dark-mode digital marketing agency website built with **HTML**, **CSS
 ### Case Studies
 ![Case Studies](screenshots/case-studies.png)
 
+### About Us
+![About](screenshots/about.png)
+
 ### Book a Strategy Call
 ![Booking](screenshots/booking.png)
+
+### Privacy Policy
+![Privacy](screenshots/privacy.png)
+
+### Terms of Service
+![Terms](screenshots/terms.png)
 
 ## 🛠 Tech Stack
 
